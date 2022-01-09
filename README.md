@@ -18,7 +18,13 @@ python connconnect_campus_network.py --user [用户名] --pwd [密码]
 
 2. 方法二: EXE
 
-下载[connconnect_campus_network.exe](https://github.com/kanchenhao/auto-reconnet-network/releases/tag/v0.0.1)至chromedriver.exe同一文件夹下.
+由pyinstaller打包获得:
+
+```
+pyinstaller -F connconnect_campus_network.py
+```
+
+或者直接下载打包好的[connconnect_campus_network.exe](https://github.com/kanchenhao/auto-reconnet-campus-network/releases/tag/v0.0.1)至chromedriver.exe同一文件夹下.
 
 双击或者在cmd中运行如下命令:
 
